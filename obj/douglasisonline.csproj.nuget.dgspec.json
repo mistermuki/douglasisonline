@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj": {}
+  },
+  "projects": {
+    "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj",
+        "projectName": "douglasisonline",
+        "projectPath": "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj",
+        "packagesPath": "C:\\Users\\Muki\\.nuget\\packages\\",
+        "outputPath": "Y:\\douglasisonline\\douglasisonline\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Muki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "TweetSharp": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "TweetinviAPI": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

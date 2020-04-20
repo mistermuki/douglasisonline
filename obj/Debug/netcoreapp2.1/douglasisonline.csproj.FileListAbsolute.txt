@@ -1,0 +1,11 @@
+Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.deps.json
+Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.runtimeconfig.json
+Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.runtimeconfig.dev.json
+Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.dll
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.csprojAssemblyReference.cache
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.csproj.CoreCompileInputs.cache
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfoInputs.cache
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfo.cs
+Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.pdb
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.dll
+Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.pdb
