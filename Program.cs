@@ -42,7 +42,7 @@ namespace douglasisonline
 
                 if (convert_to_int_sentence == false)
                 {
-                    Console.WriteLine("Parsing Expection: Converting Sentence to Int");
+                    Console.WriteLine("Parsing Error: Converting Sentence to Int");
                 }
                 else
                 {
