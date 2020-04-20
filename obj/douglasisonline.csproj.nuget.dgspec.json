@@ -5,7 +5,11 @@
   },
   "projects": {
     "F:\\Github\\douglasisonline\\douglasisonline.csproj": {
+<<<<<<< Updated upstream
       "version": "1.0.0",
+=======
+      "version": "1.0.1",
+>>>>>>> Stashed changes
       "restore": {
         "projectUniqueName": "F:\\Github\\douglasisonline\\douglasisonline.csproj",
         "projectName": "douglasisonline",
