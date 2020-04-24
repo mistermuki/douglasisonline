@@ -19,3 +19,4 @@ F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfoIn
 F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfo.cs
 F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.dll
 F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.pdb
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.csprojAssemblyReference.cache

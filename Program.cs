@@ -93,10 +93,11 @@ namespace douglasisonline
                         word3 = noun[noun_value3];
                     }
 
+                    
                     if (third == 2)
                     {
                         int verb_value3 = rnd.Next(0, verb.Length);
-                        word2 = verb[verb_value3];
+                        word3 = verb[verb_value3];
                     }
 
                     if (third == 3)
@@ -126,7 +127,7 @@ namespace douglasisonline
 
                     Console.WriteLine("Tweeted Out:" + " " + word1 + " " + word2 + " " + word3 + " " + word4);
                     Tweet.PublishTweet(word1 + " " + word2 + " " + word3 + " " + word4);
-                    Thread.Sleep(1200000);
+                    Thread.Sleep(3600000);
                 }
             }
 

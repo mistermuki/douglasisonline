@@ -1,3 +1,5 @@
+loud
+fast
 smelly
 spicy
 scary
@@ -14,3 +16,10 @@ hard
 epic
 massive
 black
+different
+used
+important
+large
+popular
+basic
+not epic
