@@ -9,3 +9,14 @@ Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.Assem
 Y:\douglasisonline\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.pdb
 Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.dll
 Y:\douglasisonline\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.pdb
+F:\Github\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.deps.json
+F:\Github\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.runtimeconfig.json
+F:\Github\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.runtimeconfig.dev.json
+F:\Github\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.dll
+F:\Github\douglasisonline\bin\Debug\netcoreapp2.1\douglasisonline.pdb
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.csproj.CoreCompileInputs.cache
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfoInputs.cache
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.AssemblyInfo.cs
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.dll
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.pdb
+F:\Github\douglasisonline\obj\Debug\netcoreapp2.1\douglasisonline.csprojAssemblyReference.cache

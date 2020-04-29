@@ -1,17 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj": {}
+    "F:\\Github\\douglasisonline\\douglasisonline.csproj": {}
   },
   "projects": {
-    "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj": {
+    "F:\\Github\\douglasisonline\\douglasisonline.csproj": {
+<<<<<<< Updated upstream
       "version": "1.0.0",
+=======
+      "version": "1.0.1",
+>>>>>>> Stashed changes
       "restore": {
-        "projectUniqueName": "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj",
+        "projectUniqueName": "F:\\Github\\douglasisonline\\douglasisonline.csproj",
         "projectName": "douglasisonline",
-        "projectPath": "Y:\\douglasisonline\\douglasisonline\\douglasisonline.csproj",
+        "projectPath": "F:\\Github\\douglasisonline\\douglasisonline.csproj",
         "packagesPath": "C:\\Users\\Muki\\.nuget\\packages\\",
-        "outputPath": "Y:\\douglasisonline\\douglasisonline\\obj\\",
+        "outputPath": "F:\\Github\\douglasisonline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
