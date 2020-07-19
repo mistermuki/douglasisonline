@@ -11,7 +11,7 @@ import pytz
 # Douglas Is Online
 # www.twitter.com/douglasisonline
 # Made by @mooksmonster & @doonturz
-# Version 1.1
+# Version 1.2
 
 auth = tweepy.OAuthHandler('4MWWQHdsbatnBvEagSl1uB9OZ', '5HEB4M35aH51YnxrPqGmsf21zk1nyDsE7ZNhn4B2IwLCBvLen0')
 auth.set_access_token('1187492688938975232-h4th2vLBh09NlgH0s9EO1e51CHrrCi','MlXkUUNmyduJYHi6EQmIgU8XV8Jq8Cuvbt6fyQmLesMIr')

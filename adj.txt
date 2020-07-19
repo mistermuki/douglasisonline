@@ -29,3 +29,9 @@ large
 popular
 basic
 not epic
+hot
+useful
+scared
+similar
+rare
+sexy
