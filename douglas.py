@@ -1,18 +1,15 @@
-import sys
-import os
 import tweepy
 import threading
 from numpy import loadtxt
 import random
 import datetime
 import time
-import multiprocessing
 import pytz
 
 # Douglas Is Online
 # www.twitter.com/douglasisonline
 # Made by @mooksmonster & @doonturz
-# Version 1.3
+# Version 1.4
 
 auth = tweepy.OAuthHandler('a2bIvHtMbEkzBEJdIXpIZE3uN', 'GrsjM75zYcbxgVctPH2DwizlEdnIQ11lS7cCIObXHG1Yjq62VB')
 auth.set_access_token('1187492688938975232-HBaoPASCyxmRsyVZX0vbEKBNC1tyGD','J3NoD3a91tA3yzOilkICDfN7z60ovULQ3780WyTmBngOX')
@@ -20,6 +17,7 @@ douglasAPI = tweepy.API(auth)
 
 if douglasAPI.verify_credentials():
     print("Douglas has awoken from his slumber once again to deliver revelations.")
+    print("Version 1.4 + Python 3.8.2 + Tweepy 3.9.0")
 
 sentenceArray = []
 randSentence = 0
@@ -50,8 +48,9 @@ def preach():
     finalSent = ""
     sentenceVal = generateSentence()
     randSentenceArray = str(sentenceVal)
+    _ = len(randSentenceArray)
 
-    for x in range(len(randSentenceArray)):
+    for x in range(_):
         if int(randSentenceArray[x]) == 1:
             tempSent.append(generateNoun())
         elif int(randSentenceArray[x]) == 2:
@@ -80,19 +79,6 @@ def replyToMentions():
             mentionsMemory.close()
             return
 
-def replyDirectMessages():
-    directMessageIDArray = loadtxt("directMessageMemory.txt", dtype=str, comments="#", delimiter=",", unpack=False)
-    
-    currentDirectMessages = douglasAPI.list_direct_messages(1)
-
-    for x in range(0, len(currentDirectMessages)):
-        for i in range(0, len(directMessageIDArray)):
-            if currentDirectMessages[x].ID != directMessageIDArray[i].ID:
-                douglasAPI.send_direct_message(currentDirectMessages[x].message_create['sender_id'], preach())
-                #dmID.append(currentDirectMessages[x].ID)
-            continue
-
-            
 class hourlyTweetThread(threading.Thread):
    def __init__(self, threadID, name):
       threading.Thread.__init__(self)
@@ -116,12 +102,12 @@ class replyingToMention(threading.Thread):
         self.name = name
     
     def run(self):
+        print(self.name + ": Running.")
         while True:
-            print(self.name + ": Running.")
-            while True:
-                replyToMentions()
-                print(self.name + ": Complete")
-                time.sleep(120)
+            replyToMentions()
+            print(datetime.datetime.now(pytz.timezone('US/Pacific')))
+            print(self.name + ": Complete.")
+            time.sleep(120)
 
 tweetingThread = hourlyTweetThread(1, "Preaching Thread")
 try:
@@ -136,13 +122,3 @@ try:
 except:
     print("An exception occurred with the replying to mention thread.")
     exit()
-
-#dmThread = directMessageThread(2, "Replying to DM Thread")
-#try:
-#    dmThread.start()
-#except:
-#    print("An exception occurred with the DMing thread.")
-#    exit()    
-
-
-
