@@ -10,9 +10,9 @@ import pytz
 # www.twitter.com/douglasisonline
 # Made by @mooksmonster & @doonturz
 # Version 1.4
-
-auth = tweepy.OAuthHandler('a2bIvHtMbEkzBEJdIXpIZE3uN', 'GrsjM75zYcbxgVctPH2DwizlEdnIQ11lS7cCIObXHG1Yjq62VB')
-auth.set_access_token('1187492688938975232-HBaoPASCyxmRsyVZX0vbEKBNC1tyGD','J3NoD3a91tA3yzOilkICDfN7z60ovULQ3780WyTmBngOX')
+keys = loadtxt("keys.txt", dtype=str)
+auth = tweepy.OAuthHandler(keys[0], keys[1])
+auth.set_access_token(keys[2],keys[3])
 douglasAPI = tweepy.API(auth)
 
 if douglasAPI.verify_credentials():
